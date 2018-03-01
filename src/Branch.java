@@ -45,4 +45,10 @@ public class Branch {
         return null;
     }
 
+    public void printCustomers() {
+        for(int i=0; i<customers.size(); i++) {
+            System.out.println(i+1+". "+ customers.get(i).getName());
+        }
+    }
+
 }
